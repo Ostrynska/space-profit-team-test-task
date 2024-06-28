@@ -103,11 +103,11 @@ input:hover, input:focus  {
 }
 
 .searchicon {
-    position: absolute;
-    left: 16px;
-    bottom: 12px;
-    width: 18px;
-    height: 18px;
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  width: 18px;
+  height: 18px;
 }
 
 .dropdownMenu {
