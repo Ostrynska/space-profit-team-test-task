@@ -1,0 +1,31 @@
+.burgermenucontainer {
+  display: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .burgermenucontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.menulist {
+  margin-bottom: 65px;
+   list-style: none;
+}
+
+.menuitem:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.menulink {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1) 0s;
+}
+
+.menulink:hover, .menulink:focus{
+  color: #000;
+}
