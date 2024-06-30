@@ -1,5 +1,4 @@
-import Header from "./Task2/Header/Header";
-
+import Header from "./Header/Header";
 
 function App() {
   return (

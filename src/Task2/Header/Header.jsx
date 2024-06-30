@@ -3,8 +3,8 @@ import { useState } from 'react';
 import styles from './Header.module.css';
 
 import logo from '../../../assets/logo.svg';
-import { ReactComponent as SearchIcon } from '../../../assets/search-icon.svg';
-import { ReactComponent as MenuIcon } from '../../../assets/menu-icon.svg';
+import { ReactComponent as SearchIcon } from '../../assets/search-icon.svg';
+import { ReactComponent as MenuIcon } from '../../assets/menu-icon.svg';
 import BurgerMenu from '../Menu/Menu';
 
 const Header = () => {
